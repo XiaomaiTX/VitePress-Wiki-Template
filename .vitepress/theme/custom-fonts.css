@@ -1,0 +1,21 @@
+/* @import url("../../node_modules/lxgw-wenkai-screen-webfont/style.css"); */
+/**
+ * 使用自定义字体
+ * -------------------------------------------------------------------------- */
+
+/* @font-face {
+	font-family: "FusionPixel";
+	src: url("/static/fonts/fusion-pixel-12px-proportional-zh_hans.woff2")
+		format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body {
+	font-family: "LXGW WenKai Screen", sans-serif;
+}
+
+.name,.title,.text {
+	font-family: "FusionPixel", sans-serif;
+} */
