@@ -26,6 +26,11 @@ jobs:
           path: node_modules
           key: ${{ runner.os }}-node-${{ hashFiles('package-lock.yaml') }}
 
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
       - name: Install dependencies
         run: pnpm install --frozen-lockfile  # pnpm 的等效于 `npm ci`
 
