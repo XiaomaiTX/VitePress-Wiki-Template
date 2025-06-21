@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
 import { generateSidebar } from "vitepress-sidebar";
 import renpy_tmLanguage from "./renpy.tmLanguage.json";
+import { LanguageRegistration } from "shiki";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -59,7 +60,7 @@ export default defineConfig({
   markdown: {
     lineNumbers: true,
     shikiSetup: (shiki) => {
-      shiki.loadLanguageSync([renpy_tmLanguage as any]);
+      shiki.loadLanguageSync([renpy_tmLanguage as unknown as LanguageRegistration]);
     },
   },
 });
