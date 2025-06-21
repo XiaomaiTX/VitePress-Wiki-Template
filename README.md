@@ -1,10 +1,8 @@
 # VitePress Wiki Template
 
-## 贡献指南
+## 自动化
 
-
-### 规范贡献流程
-
+- Docker 自动部署
 
 ## 开发
 
