@@ -32,7 +32,7 @@ jobs:
           version: 8
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile  # pnpm 的等效于 `npm ci`
+        run: pnpm install
 
       # 1️⃣ 运行 ESLint 检查
       - name: Run ESLint
