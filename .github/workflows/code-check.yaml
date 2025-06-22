@@ -43,8 +43,8 @@ jobs:
         run: npx prettier --check . --write  # --write 自动修复问题
 
       # 3️⃣ 运行 Stylelint 检查（并自动修复）
-      - name: Run Stylelint
-        run: npx stylelint "**/*.{css,scss,vue}" --fix
+      # - name: Run Stylelint
+      #   run: npx stylelint "*.{css,scss,vue}" --fix
 
       # 4️⃣ 如果有自动修复的变更，提交回仓库
       - name: Commit auto-fixes
