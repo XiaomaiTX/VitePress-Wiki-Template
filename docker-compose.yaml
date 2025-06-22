@@ -1,10 +1,9 @@
 version: "3"
 services:
-    vitepress:
-        image: [imageName]
-        container_name: hzengine-wiki
-        ports:
-            - "3001:3000"
-        environment:
-            - NODE_ENV=development
-
+  vitepress:
+    image: [imageName]
+    container_name: hzengine-wiki
+    ports:
+      - "3001:3000"
+    environment:
+      - NODE_ENV=development

@@ -60,7 +60,9 @@ export default defineConfig({
   markdown: {
     lineNumbers: true,
     shikiSetup: (shiki) => {
-      shiki.loadLanguageSync([renpy_tmLanguage as unknown as LanguageRegistration]);
+      shiki.loadLanguageSync([
+        renpy_tmLanguage as unknown as LanguageRegistration,
+      ]);
     },
   },
 });

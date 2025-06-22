@@ -15,6 +15,4 @@ hero:
     - theme: alt
       text: 编辑文档
       link: <GithubLink>
-
-
 ---
