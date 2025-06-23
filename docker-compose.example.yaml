@@ -1,8 +1,8 @@
 version: "3"
 services:
   vitepress:
-    image: [imageName]
-    container_name: hzengine-wiki
+    image: <ImageName>
+    container_name: wiki
     ports:
       - "3001:3000"
     environment:
