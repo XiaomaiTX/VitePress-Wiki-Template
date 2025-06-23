@@ -3,6 +3,9 @@ services:
   vitepress:
     image: <ImageName>
     container_name: wiki
+    volumes:
+      - ./wiki:/app/wiki
+      - ./public:/app/public
     ports:
       - "3001:3000"
     environment:
